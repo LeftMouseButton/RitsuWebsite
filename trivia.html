@@ -1,0 +1,64 @@
+<html>
+  <body>
+<table border="1" width="100%" cellspacing="0" cellpadding="10">
+  <tr>
+    <td colspan="3" align="center" bgcolor="green" style="color:white; font-weight:bold;">
+      LeftMouseButton
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center" bgcolor="#dbe3dc">
+      <a href="index.html">HOME</a>| <a href="portfolio.html">PORTFOLIO</a> | <a href="trivia.html">TRIVIA</a>
+    </td>
+  </tr>
+  <tr bgcolor="#ffdd77">
+    <td width="33%" valign="top">
+      <b>Useful Links</b><br>
+      <li><a href="https://lms.ritsumei.ac.jp/my/">Moodle</a></li>
+        <li><a href="https://ct.ritsumei.ac.jp/ct/home_course">Manaba+R</a></li>
+        <li><a href="https://outlook.cloud.microsoft/mail/">Mail</a></li>
+    </td>
+    <td width="34%" valign="top">
+      <b>Trivia Quiz</b><br><br>
+    <form id="quizForm">
+        <label>1. Which food gives the most cooking XP per craft?</label><br>
+        <input type="radio" name="q1" value="Beer"> Beer<br>
+        <input type="radio" name="q1" value="Balenos Meal"> Balenos Meal<br>
+        <input type="radio" name="q1" value="Valencia Meal"> Valencia Meal<br>
+
+
+        <label>2. Which gives the most gathering XP per hour?</label><br>
+        <input type="radio" name="q2" value="Behr Herbs"> Behr Herbs<br>
+        <input type="radio" name="q2" value="Heidel Sheep"> Heidel Sheep<br>
+        <input type="radio" name="q2" value="Valencia Lions"> Valencia Lions<br>
+
+        <label>3. Which gives the most alchemy XP per craft?</label><br>
+        <input type="radio" name="q3" value="Clear Liquid Reagent"> Clear Liquid Reagent<br>
+        <input type="radio" name="q3" value="Elixir of Draining"> Elixir of Draining<br>
+        <input type="radio" name="q3" value="Elixir of Swiftness"> Elixir of Swiftness<br>
+ 
+
+      <button type="button" onclick="checkAnswers()">Submit Answers</button>
+    </form>
+<div id="result"></div>
+  <script src="quiz.js"></script>
+      
+      
+    </td>
+    <td width="33%" valign="top">
+      <b>Contact Me</b><br><br>
+      Name: <input><br>
+      Email:<input><br>
+      Message: <textarea rows="1 cols="1" name="Ex3"> </textarea> <br><br>
+        <button> Submit </button>
+        <button> Clear </button>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center" bgcolor="darkgreen" style="color:white; font-weight:bold;">
+      Created: July 21, 2025
+    </td>
+  </tr>
+</table>
+  </body>
+</html>
